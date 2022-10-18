@@ -1,0 +1,89 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+div.container {
+  background-size: contain;
+  width: 63%;
+  height: 825px;
+  margin: auto;
+  margin-top: 35px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+nav, header{
+  text-align: center;
+}
+
+.logo {
+width: 245px;
+height: auto;
+margin-top: 100px;
+}
+
+header > h1{
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
+  color: rgb(0, 221, 0);
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+nav {
+  background-color: rgb(0, 221, 0);
+  width: 85%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: auto;
+}
+
+section {
+  text-align: left;
+  margin-left: 100px;
+}
+
+section > h2 {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 2px;
+
+}
+section > h2:before {
+  content: "\25A0";
+  margin-right: 5px;
+}
+
+.location-monopattino {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: lightgrey;
+  margin: auto;
+}
+.location-monopattino:before {
+    content: '\21A6';
+    color: lightgrey;
+    margin-right: 5px;
+}
+.carica-monopattino1 {
+  width: 30%;
+  height: 30px;
+  background-color: goldenrod;
+  border-radius: 5px;
+}
+
+.carica-monopattino2 {
+  width: 55%;
+  height: 30px;
+  background-color: limegreen;
+  border-radius: 5px;
+}
+.carica-monopattino3 {
+  width: 15%;
+  height: 30px;
+  background-color: orangered;
+  border-radius: 5px;
+}
